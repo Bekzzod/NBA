@@ -10,13 +10,16 @@
 После запуска иконка приложения появляется в трее, переход в настройки и всё управление осуществляется по правому клику на нее.  
 Настройки по вкладкам:  
 Основные - Требовать учетные записи администратора
-![](https://github.com/Bekzzod/NBA/raw/master/readme_media/admin.png)
+![](https://github.com/Bekzzod/NBA/raw/master/readme_media/admin.png)  
+
 Сервер - Настройка использования переменной Path: Свой Path + Win Path 
-![](https://github.com/Bekzzod/NBA/raw/master/readme_media/server.png)
+![](https://github.com/Bekzzod/NBA/raw/master/readme_media/server.png)  
+
 Модули - HTTP: Apache-PHP-7-x64  
          PHP: PHP-7.1-x64  
          MySQL/MariaDB: MySQL-5.7-x64
-![](https://github.com/Bekzzod/NBA/raw/master/readme_media/modules.png)
+![](https://github.com/Bekzzod/NBA/raw/master/readme_media/modules.png)  
+
 Домены - Управление доменами: Ручное + Автопоиск  
          Имя домена: estate; папка домена: \NBA\ (выбор по нажатии трёх точек); нажать "Добавить" 
 ![](https://github.com/Bekzzod/NBA/raw/master/readme_media/domens.png)

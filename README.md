@@ -17,7 +17,8 @@
 
 Модули - HTTP: Apache-PHP-7-x64  
          PHP: PHP-7.1-x64  
-         MySQL/MariaDB: MySQL-5.7-x64
+         MySQL/MariaDB: MySQL-5.7-x64  
+		 
 ![](https://github.com/Bekzzod/NBA/raw/master/readme_media/modules.png)  
 
 Домены - Управление доменами: Ручное + Автопоиск  

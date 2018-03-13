@@ -4,7 +4,7 @@
 ---
 ## 1. Скачать и установить Open Server редакции Premium ([torrent-файл](http://rutracker-2017.org/engine/download.php?id=2377) или [сайт разработчика](https://ospanel.io/download/))
 ## 2. Скачать [десктопный клиент для Git](https://desktop.github.com/), залогиниться/зарегистрироваться и клонировать данный репозиторий в папку C:\OSPanel\domains
-В программе: File - Clone Repository - Вкладка URL - вставить https://github.com/Bekzzod/NBA/ и задать папку C:\OSPanel\domains. У репозитория должен получиться путь C:\OSPanel\domains\NBA. Саму папку estate создавать не нужно, ее создаст программа.
+В программе: File - Clone Repository - Вкладка URL - вставить https://github.com/Bekzzod/NBA/ и задать папку C:\OSPanel\domains. У репозитория должен получиться путь C:\OSPanel\domains\NBA. Саму папку NBA создавать не нужно, ее создаст программа.
 ## 3. Настроить Open Server. 
 Приложение находится по пути C:\OSPanel\Open Server x64.exe.  
 После запуска иконка приложения появляется в трее, переход в настройки и всё управление осуществляется по правому клику на нее.  

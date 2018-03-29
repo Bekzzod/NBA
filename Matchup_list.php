@@ -26,8 +26,8 @@ $(document).ready(function()
 <body>
     <div id="container">
         <input type="date" id="Editbox1" name="Editbox1" value="" spellcheck="false">
-        <button type="button" id="jQueryButton1" onclick="$('#Editbox1').slideshow('nextimage');return false;" name="" Value=">>"></button>
-        <button type="button" id="jQueryButton2" onclick="$('#Editbox1').slideshow('nextimage');return false;" name="" value="<<"></button>
+        <button type="button" id="jQueryButton1" onclick="$('#Editbox1').slideshow('nextimage');return false;" name="" Value=">>">>></button>
+        <button type="button" id="jQueryButton2" onclick="$('#Editbox1').slideshow('nextimage');return false;" name="" value="<<"><<</button>
             <div id="Text3">
                 <span style="color:#434343;font-family:Arial;font-size:53px;">VS</span>
             </div>

@@ -1,0 +1,298 @@
+div#container
+{
+   width: 1319px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#jQueryTabs1
+{
+    position:absolute;
+    left:22px;
+    top:17px;
+    width:1272px;
+    height:811px;
+    z-index:6;
+}
+#jQueryTabs1 .tab-pane
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DDDDDD;
+   display: none;
+}
+#jQueryTabs1 .active
+{
+   display: block;
+}
+#jQueryTabs1 .ui-tabs-nav li a
+{
+   padding: 8px 10px 8px 10px;
+}
+#jQueryTabs1 .nav-tabs
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#jQueryTabs1 .nav-tabs::after, #jQueryTabs1 .nav-tabs::before
+{
+   display: table;
+   content: " ";
+}
+#jQueryTabs1 .nav-tabs::after
+{
+   clear: both;
+}
+#jQueryTabs1 .nav-tabs > li
+{
+   display: block;
+   float: left;
+   margin-bottom: -1px;
+   position: relative;
+}
+#jQueryTabs1 .nav-tabs > li > a
+{
+   border: 1px solid transparent;
+   border-radius: 6px 6px 0 0;
+   color: #454545;
+   display: block;
+   margin-right: 2px;
+   padding: 8px 10px 8px 10px;
+   position: relative;
+   text-decoration: none;
+}
+#jQueryTabs1 .nav-tabs > li.active > a, #jQueryTabs1 .nav-tabs > li.active > a:focus, #jQueryTabs1	.nav-tabs > li.active > a:hover
+{
+   background-color: #3370B7;
+   background-image: none;
+   border: 1px solid #2E6DA4;
+   border-bottom-color: transparent;
+   color: #FFFFFF;
+   cursor: default;
+}
+#jQueryTabs1 .nav-tabs a:active, #jQueryTabs1 .nav-tabs a:hover
+{
+   outline: 0;
+}
+#jQueryTabs1 .nav-tabs a:focus, #jQueryTabs1 .nav-tabs a:hover
+{
+   background-color: #F6F6F6;
+   background-image: none;
+   border-color: #C5C5C5 #C5C5C5 #C5C5C5;
+   color: #454545;
+   text-decoration: none;
+}
+#jQueryTabs1 .ui-tabs-panel
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   padding: 0;
+}
+#Layer1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+}
+#Layer2
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   position:absolute;
+   text-align:left;
+   left:18px;
+   top:48px;
+   width:1239px;
+   height:736px;
+   z-index:3;
+}
+#Table1
+{
+   border: 2px #C0C0C0 solid;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 0px;
+   position:absolute;
+   left:0px;
+   top:0px;
+   width:1230px;
+   height:730px;
+   z-index:2;
+}
+#Table1 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 380px;
+   height: 60px;
+}
+#Table1 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 60px;
+}
+#Table1 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 380px;
+   height: 124px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 124px;
+}
+#Table1 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 380px;
+   height: 158px;
+}
+#Table1 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 158px;
+}
+#Layer3
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   position:absolute;
+   text-align:left;
+   left:18px;
+   top:46px;
+   width:1239px;
+   height:736px;
+   z-index:1;
+}
+#Table2
+{
+   border: 2px #C0C0C0 solid;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 0px;
+   position:absolute;
+   left:0px;
+   top:3px;
+   width:1230px;
+   height:730px;
+   z-index:0;
+}
+#Table2 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#Table2 td div
+{
+   white-space: nowrap;
+}
+#Table2 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 380px;
+   height: 60px;
+}
+#Table2 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 60px;
+}
+#Table2 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 380px;
+   height: 124px;
+}
+#Table2 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 124px;
+}
+#Table2 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 380px;
+   height: 158px;
+}
+#Table2 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 158px;
+}

@@ -1,26 +1,35 @@
 <!doctype html>
 <html>
 <head>
-        <meta charset="utf-8">
-        <title>Manage Teams</title>
-        <link href="base/jquery-ui.min.css" rel="stylesheet">
-        <link href="css/jquery-ui.min.css" rel="stylesheet">
-        <link href="css/projectcss.css" rel="stylesheet">
-        <link href="css/Manage_Teams.css" rel="stylesheet">
-        <script src="js/jquery-1.12.4.min.js"></script>
-        <script src="js/jquery-ui.min.js"></script>
-        <script src="js/wwb12.min.js"></script>
-        <script src="js/tab.min.js"></script>
-        <script>
-                $(document).ready(function()
-                {
-                $("#jQueryButton1").button();
-                $("#jQueryButton2").button();
-                });
-        </script>
+<meta charset="utf-8">
+<title>Manage Teams</title>
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="css/jquery-ui.min.css" rel="stylesheet">
+<link href="css/projectcss.css" rel="stylesheet">
+<link href="css/Manage_Teams.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/wwb12.min.js"></script>
+<script src="js/tab.min.js"></script>
+<script>
+        $(document).ready(function()
+        {
+        $("#jQueryButton1").button();
+        $("#jQueryButton2").button();
+        });
+</script>
 </head>
 <body>
+<?php
+include 'db_connection.php';
 
+$conn = OpenCon();
+
+echo "Connected Successfully";
+
+?>
+
+<?php include 'core_functions.php';?>
 <div id="container">
         <button type="button" id="jQueryButton1" name="" value="Add a new team">Add a new team</button>
         <div id="Layer3">
@@ -47,5 +56,6 @@
                 </tr>
         </table>
 </div>
+<?php include 'footer.php';?>
 </body>
 </html>

@@ -1,9 +1,13 @@
 div#container
 {
    width: 1280px;
-   position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
+   position: fixed; 
+   left: 0px; 
+   top:11em; 
+   right: 0px; 
+   overflow: auto;
 }
 body
 {
@@ -15,6 +19,7 @@ body
    line-height: 1.1875;
    margin: 0;
    text-align: center;
+   
 }
 #Label1
 {
@@ -31,7 +36,7 @@ body
    vertical-align: top;
    position:absolute;
    left:384px;
-   top:43px;
+   top:143px;
    width:642px;
    height:127px;
    line-height:127px;
@@ -252,18 +257,11 @@ body
 {
    background-color: #FBFBFB;
    background-image: none;
-   position:absolute;
+   position:fixed;
    text-align:left;
    left:162px;
    top:347px;
-   width:905px;
-   height:394px;
+   width:100%;
+   height:294px;
    z-index:7;
-}
-#PageFooter1
-{
-   background-color: #6995C2;
-   background-image: none;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
 }

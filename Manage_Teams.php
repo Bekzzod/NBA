@@ -22,14 +22,8 @@
 <body>
 <?php
 include 'db_connection.php';
-
 $conn = OpenCon();
-
-echo "Connected Successfully";
-
 ?>
-
-<?php include 'core_functions.php';?>
 <div id="container">
         <button type="button" id="jQueryButton1" name="" value="Add a new team">Add a new team</button>
         <div id="Layer3">
@@ -44,6 +38,8 @@ echo "Connected Successfully";
                 </select>
         </div>
 </div>
+
+
 <div id="Layer1">
         <table id="Table1">
                 <tr>
@@ -56,6 +52,5 @@ echo "Connected Successfully";
                 </tr>
         </table>
 </div>
-<?php include 'footer.php';?>
 </body>
 </html>

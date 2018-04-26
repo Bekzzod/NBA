@@ -8,6 +8,12 @@
     <link href="css/Main.css" rel="stylesheet">
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
 </head>
 <body>
     <div id="container">
@@ -22,3 +28,33 @@
             <a class="button" href="/Admin_Login.php">Admin</a>
         </div>
     </div>
+
+<div class="slider__index">
+    <div class="slider multiple-items">
+        <?php
+        $imgSources = [
+                '/images/lineup.jpg',
+                '/images/xp.jpg',
+                '/images/lineup.jpg',
+                '/images/xp.jpg',
+                '/images/lineup.jpg',
+                '/images/xp.jpg',
+                '/images/lineup.jpg',
+                '/images/xp.jpg',
+                '/images/lineup.jpg',
+        ];?>
+        <? foreach($imgSources as $imgPath):?>
+            <div class="slider__index-image-wrapper"><img src="<?=$imgPath?>" class="slider__index-image" alt=""></div>
+        <?endforeach;?>
+    </div>
+</div>
+<script>
+var $jq = jQuery.noConflict();
+$jq(document).ready(function(){
+    $jq('.multiple-items').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+});
+</script>

@@ -1,0 +1,638 @@
+div#container
+{
+   width: 1299px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+
+#Button3
+{
+   border: 1px #000000 solid;
+   border-radius: 4px;
+   background-color: #DCDCDC;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Label1
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#A9A9A9;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 20px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px transparent solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#Text1 div
+{
+   text-align: left;
+}
+#Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#Text2 div
+{
+   text-align: center;
+}
+#Layer1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   position:absolute;
+   text-align:left;
+   left:18px;
+   top:25px;
+   width:1281px;
+   height:738px;
+   z-index:61;
+}
+#jQueryTabs1
+{
+   position:absolute;
+   left:13px;
+   top:14px;
+   width:1246px;
+   height:711px;
+   z-index:20;
+}
+#jQueryTabs1 .tab-pane
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid rgb(2, 2, 2);
+   display: none;
+}
+#jQueryTabs1 .active
+{
+   display: block;
+}
+#jQueryTabs1 .ui-tabs-nav li a
+{
+   padding: 8px 10px 8px 10px;
+}
+#jQueryTabs1 .nav-tabs
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#jQueryTabs1 .nav-tabs::after, #jQueryTabs1 .nav-tabs::before
+{
+   display: table;
+   content: " ";
+}
+#jQueryTabs1 .nav-tabs::after
+{
+   clear: both;
+}
+#jQueryTabs1 .nav-tabs > li
+{
+   display: block;
+   float: left;
+   margin-bottom: -1px;
+   position: relative;
+}
+#jQueryTabs1 .nav-tabs > li > a
+{
+   border: 1px solid transparent;
+   border-radius: 6px 6px 0 0;
+   color: #454545;
+   display: block;
+   margin-right: 2px;
+   padding: 8px 10px 8px 10px;
+   position: relative;
+   text-decoration: none;
+}
+#jQueryTabs1 .nav-tabs > li.active > a, #jQueryTabs1 .nav-tabs > li.active > a:focus, #jQueryTabs1	.nav-tabs > li.active > a:hover
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 1px solid #2B2B2B;
+   border-bottom-color: transparent;
+   color: #000000;
+   cursor: default;
+}
+#jQueryTabs1 .nav-tabs a:active, #jQueryTabs1 .nav-tabs a:hover
+{
+   outline: 0;
+}
+#jQueryTabs1 .nav-tabs a:focus, #jQueryTabs1 .nav-tabs a:hover
+{
+   background-color: #F6F6F6;
+   background-image: none;
+   border-color: #C5C5C5 #C5C5C5 #C5C5C5;
+   color: #000000;
+   text-decoration: none;
+}
+#jQueryTabs1 .ui-tabs-panel
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   padding: 0;
+}
+#Layer2
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 1px #000000 solid;
+   position:absolute;
+   overflow:scroll;
+   text-align:center;
+   left:14px;
+   top:47px;
+   width:98%;
+   height:654px;
+   z-index:7;
+}
+#Table1
+{
+   border: 2px rgb(0, 0, 0) solid;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   position:absolute;
+   left:20px;
+   top:18px;
+   width:1122px;
+   height:132px;
+   z-index:6;
+}
+#Table1 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#Table1 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px rgb(0, 0, 0) solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 122px;
+   height: 80px;
+   color:#000000;
+   font-family:Arial;
+   font-size:13px;
+   line-height:16px;
+}
+#Table1 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px rgb(0, 0, 0) solid;
+   text-align: center;
+   vertical-align: middle;
+   height: 80px;
+}
+#Table1 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px rgb(14, 13, 13) solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 122px;
+   height: 42px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px rgb(0, 0, 0) solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 122px;
+   height: 42px;
+   font-size: 0;
+}
+#Table1 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px rgb(0, 0, 0) solid;
+   text-align: center;
+   vertical-align: middle;
+   height: 42px;
+   font-size: 0;
+}
+#Button1
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button2
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Layer3
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   position:absolute;
+   text-align:left;
+   left:295px;
+   top:0px;width:
+   705px;height:
+   45px;z-index:21;
+}
+#Combobox1
+{
+   border: 1px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   position:absolute;
+   left:107px;
+   top:8px;
+   width:210px;
+   height:28px;
+   z-index:15;
+}
+#Combobox1:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label2
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:11px;
+   top:3px;
+   width:79px;
+   height:30px;
+   line-height:30px;
+   z-index:16;
+}
+#Label3
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:343px;
+   top:3px;
+   width:59px;
+   height:30px;
+   line-height:30px;
+   z-index:17;
+}
+#jQueryButton1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   position:absolute;
+   left:582px;
+   top:4px;
+   width:99px;
+   height:37px;
+   z-index:18;
+}
+#jQueryButton1 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#jQueryButton1.ui-corner-all
+{
+   -webkit-border-bottom-left-radius: 4px;
+   -moz-border-bottom-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   -webkit-border-top-left-radius: 4px;
+   -moz-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#jQueryButton1.ui-corner-all
+{
+   -webkit-border-bottom-right-radius: 4px;
+   -moz-border-bottom-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   -webkit-border-top-right-radius: 4px;
+   -moz-border-top-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#Editbox1
+{
+   border: 1px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+   position:absolute;
+   left:410px;
+   top:9px;
+   width:129px;
+   height:16px;
+   line-height:16px;
+   z-index:19;
+}
+#Editbox1:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Layer4
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 1px #000000 solid;
+   position:absolute;
+   text-align:center;
+   left:14px;
+   top:46px;
+   width:98%;
+   height:653px;
+   z-index:14;
+}
+#jQueryButton2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   position:absolute;
+   left:40px;
+   top:11px;
+   width:197px;
+   height:40px;
+   z-index:11;
+}
+#jQueryButton2 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#jQueryButton2.ui-corner-all
+{
+   -webkit-border-bottom-left-radius: 4px;
+   -moz-border-bottom-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   -webkit-border-top-left-radius: 4px;
+   -moz-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#jQueryButton2.ui-corner-all
+{
+   -webkit-border-bottom-right-radius: 4px;
+   -moz-border-bottom-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   -webkit-border-top-right-radius: 4px;
+   -moz-border-top-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#jQueryButton3
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   position:absolute;
+   left:895px;
+   top:597px;
+   width:197px;
+   height:40px;
+   z-index:12;
+}
+#jQueryButton3 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#jQueryButton3.ui-corner-all
+{
+   -webkit-border-bottom-left-radius: 4px;
+   -moz-border-bottom-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   -webkit-border-top-left-radius: 4px;
+   -moz-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#jQueryButton3.ui-corner-all
+{
+   -webkit-border-bottom-right-radius: 4px;
+   -moz-border-bottom-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   -webkit-border-top-right-radius: 4px;
+   -moz-border-top-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#Layer5
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   position:absolute;
+   overflow:scroll;
+   text-align:center;
+   left:15px;
+   top:55px;
+   width:97%;
+   height:521px;
+   z-index:13;
+}
+#Table2
+{
+   border: 2px rgb(0, 0, 0) solid;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   position:absolute;
+   left:18px;
+   top:15px;
+   width:1103px;
+   height:132px;
+   z-index:10;
+}
+#Table2 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#Table2 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px rgb(0, 0, 0) solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 120px;
+   height: 80px;
+   color:#000000;
+   font-family:Arial;
+   font-size:13px;
+   line-height:16px;
+}
+#Table2 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px rgb(0, 0, 0) solid;
+   text-align: center;
+   vertical-align: middle;
+   height: 80px;
+}
+#Table2 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px rgb(0, 0, 0) solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 120px;
+   height: 42px;
+}
+#Table2 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px rgb(0, 0, 0) solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 120px;
+   height: 42px;
+   font-size: 0;
+}
+#Table2 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px rgb(0, 0, 0) solid;
+   text-align: center;
+   vertical-align: middle;
+   height: 42px;
+   font-size: 0;
+}
+#Button4
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button5
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#PageFooter1
+{
+   background-color: #6995C2;
+   background-image: none;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}

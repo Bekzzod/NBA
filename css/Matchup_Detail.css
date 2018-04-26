@@ -1,0 +1,1286 @@
+div#container
+{
+   width: 1294px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#PageHeader2
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#Text2 div
+{
+   text-align: center;
+}
+#Line2
+{
+   border-color: #1E90FF;
+   border-style: solid;
+   border-bottom-width: 1px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#PageHeader1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#Button3
+{
+   border: 1px #000000 solid;
+   border-radius: 4px;
+   background-color: #DCDCDC;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Label1
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#A9A9A9;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 20px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px transparent solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#Text1 div
+{
+   text-align: left;
+}
+#Table1
+{
+   border: 2px #C0C0C0 solid;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+}
+#Table1 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 .cell0
+{
+   text-align: center;
+   vertical-align: middle;
+   width: 56px;
+   height: 28px;
+}
+#Table1 .cell1
+{
+   text-align: center;
+   vertical-align: middle;
+   width: 58px;
+   height: 28px;
+}
+#Table1 .cell2
+{
+   text-align: center;
+   vertical-align: middle;
+   height: 28px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 56px;
+   height: 30px;
+}
+#Table1 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 58px;
+   height: 30px;
+}
+#Table1 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   height: 30px;
+}
+#Table1 .cell6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 56px;
+   height: 32px;
+}
+#Table1 .cell7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 58px;
+   height: 32px;
+}
+#Table1 .cell8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: middle;
+   height: 32px;
+}
+#Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position:absolute;
+   left:281px;
+   top:170px;
+   width:116px;
+   height:44px;
+   z-index:64;
+}
+#Text3 div
+{
+   text-align: left;
+}
+#Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position:absolute;
+   left:881px;
+   top:170px;
+   width:116px;
+   height:44px;
+   z-index:65;
+}
+#Text4 div
+{
+   text-align: left;
+}
+#Image2
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   position:absolute;
+   left:199px;
+   top:146px;
+   width:70px;
+   height:70px;
+   z-index:66;
+}
+#Image3
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   position:absolute;
+   left:1012px;
+   top:146px;
+   width:66px;
+   height:70px;
+   z-index:67;
+}
+#Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position:absolute;
+   left:10px;
+   top:170px;
+   width:166px;
+   height:22px;
+   z-index:68;
+}
+#Text5 div
+{
+   text-align: left;
+}
+#jQueryTabs1
+{
+   position:absolute;
+   left:1px;
+   top:253px;
+   width:1291px;
+   height:686px;
+   z-index:69;
+}
+#jQueryTabs1 .tab-pane
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DDDDDD;
+   display: none;
+}
+#jQueryTabs1 .active
+{
+   display: block;
+}
+#jQueryTabs1 .ui-tabs-nav li a
+{
+   padding: 8px 10px 8px 10px;
+}
+#jQueryTabs1 .nav-tabs
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#jQueryTabs1 .nav-tabs::after, #jQueryTabs1 .nav-tabs::before
+{
+   display: table;
+   content: " ";
+}
+#jQueryTabs1 .nav-tabs::after
+{
+   clear: both;
+}
+#jQueryTabs1 .nav-tabs > li
+{
+   display: block;
+   float: left;
+   margin-bottom: -1px;
+   position: relative;
+}
+#jQueryTabs1 .nav-tabs > li > a
+{
+   border: 1px solid transparent;
+   border-radius: 6px 6px 0 0;
+   color: #454545;
+   display: block;
+   margin-right: 2px;
+   padding: 8px 10px 8px 10px;
+   position: relative;
+   text-decoration: none;
+}
+#jQueryTabs1 .nav-tabs > li.active > a, #jQueryTabs1 .nav-tabs > li.active > a:focus, #jQueryTabs1	.nav-tabs > li.active > a:hover
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 1px solid #000000;
+   border-bottom-color: transparent;
+   color: #000000;
+   cursor: default;
+}
+#jQueryTabs1 .nav-tabs a:active, #jQueryTabs1 .nav-tabs a:hover
+{
+   outline: 0;
+}
+#jQueryTabs1 .nav-tabs a:focus, #jQueryTabs1 .nav-tabs a:hover
+{
+   background-color: #F6F6F6;
+   background-image: none;
+   border-color: #C5C5C5 #C5C5C5 #C5C5C5;
+   color: #454545;
+   text-decoration: none;
+}
+#jQueryTabs1 .ui-tabs-panel
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   padding: 0;
+}
+#Combobox1
+{
+   border: 1px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   position:absolute;
+   left:121px;
+   top:57px;
+   width:99px;
+   height:37px;
+   z-index:34;
+}
+#Label2
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:52px;
+   top:50px;
+   width:77px;
+   height:42px;
+   line-height:42px;
+   z-index:35;
+}
+#jQueryButton1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   position:absolute;
+   left:234px;
+   top:57px;
+   width:98px;
+   height:37px;
+   z-index:36;
+}
+#jQueryButton1 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#jQueryButton1.ui-corner-all
+{
+   -webkit-border-bottom-left-radius: 4px;
+   -moz-border-bottom-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   -webkit-border-top-left-radius: 4px;
+   -moz-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#jQueryButton1.ui-corner-all
+{
+   -webkit-border-bottom-right-radius: 4px;
+   -moz-border-bottom-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   -webkit-border-top-right-radius: 4px;
+   -moz-border-top-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#Layer1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   position:absolute;
+   overflow:scroll;
+   text-align:left;
+   left:37px;
+   top:94px;
+   width:93.9722%;
+   height:565px;
+   z-index:37;
+}
+#Table2
+{
+   border: 2px #C0C0C0 solid;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+}
+#Table2 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#Table2 td div
+{
+   white-space: nowrap;
+}
+#Table2 .cell0
+{
+   text-align: center;
+   vertical-align: middle;
+   width: 204px;
+   height: 52px;
+}
+#Table2 .cell1
+{
+   text-align: center;
+   vertical-align: middle;
+   height: 52px;
+}
+#Table2 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 204px;
+   height: 52px;
+}
+#Table2 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 52px;
+}
+#Table2 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 204px;
+   height: 54px;
+}
+#Table2 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 54px;
+}
+#Table2 tr:nth-child(odd)
+{
+   background-color: #FFF8DC;
+}
+#Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position:absolute;
+   left:1088px;
+   top:170px;
+   width:166px;
+   height:22px;
+   z-index:70;
+}
+#Text6 div
+{
+   text-align: left;
+}
+#Picture1
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   position:absolute;
+   left:17px;
+   top:50px;
+   width:1258px;
+   height:615px;
+   z-index:28
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   position:absolute;
+   text-align:left;
+   left:154px;
+   top:151px;
+   width:366px;
+   height:426px; 
+   z-index:29;
+}
+#Table3
+{
+   border: 2px #C0C0C0 solid;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   position:absolute;
+   left:16px;
+   top:102px;
+   width:333px;
+   height:321px;
+   z-index:25;
+}
+#Table3 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#Table3 td div
+{
+   white-space: nowrap;
+}
+#Table3 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 3px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 52px;
+}
+#Table3 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 3px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 58px;
+}
+#Table3 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 3px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 60px;
+}
+#Image4
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   position:absolute;
+   left:19px;
+   top:9px;
+   width:121px;
+   height:78px;
+   z-index:24;
+}
+#Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position:absolute;
+   left:295px;
+   top:206px;
+   width:322px;
+   height:33px;
+   z-index:30;
+}
+#Text7 div
+{
+   text-align: left;
+}
+#Layer3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   position:absolute;
+   text-align:left;
+   left:779px;
+   top:151px;   
+   width:366px;
+   height:426px;
+   z-index:31;
+}
+
+#Image5
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Table4
+{
+   border: 2px #C0C0C0 solid;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   position:absolute;
+   left:16px;
+   top:102px;
+   width:333px;
+   height:321px;
+   z-index:27;
+}
+#Table4 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#Table4 td div
+{
+   white-space: nowrap;
+}
+#Table4 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 3px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 52px;
+}
+#Table4 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 3px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 58px;
+}
+#Table4 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 3px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 60px;
+}
+#Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position:absolute;
+   left:921px;
+   top:206px;
+   width:322px;
+   height:33px;
+   z-index:32;
+}
+#Text8 div
+{
+   text-align: left;
+}
+#Layer4
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 1px #000000 solid;
+   position:absolute;
+   text-align:left;
+   left:9px;
+   top:46px;
+   width:513px;
+   height:614px;
+   z-index:22;
+}
+#Layer5
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 1px #000000 solid;
+   position:absolute;
+   text-align:left;
+   left:549px;
+   top:83px;
+   width:692px;
+   height:237px;
+   z-index:21;
+}
+#Table5
+{
+   border: 1px #A0A0A0 solid;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 3px;
+   position:absolute;
+   left:3px;
+   top:53px;
+   width:507px;
+   height:554px;
+   z-index:13;
+}
+#Table5 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#Table5 td div
+{
+   white-space: nowrap;
+}
+#Table5 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #F0F0F0;
+   border-right-color: #A0A0A0;
+   border-bottom-color: #A0A0A0;
+   border-left-color: #F0F0F0;
+   text-align: left;
+   vertical-align: top;
+   width: 186px;
+   height: 64px;
+}
+#Table5 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #F0F0F0;
+   border-right-color: #A0A0A0;
+   border-bottom-color: #A0A0A0;
+   border-left-color: #F0F0F0;
+   text-align: left;
+   vertical-align: top;
+   width: 158px;
+   height: 64px;
+}
+#Table5 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #F0F0F0;
+   border-right-color: #A0A0A0;
+   border-bottom-color: #A0A0A0;
+   border-left-color: #F0F0F0;
+   text-align: left;
+   vertical-align: top;
+   height: 64px;
+}
+#Table5 tr:nth-child(odd)
+{
+   background-color: #DCDCDC;
+}
+#Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position:absolute;
+   left:215px;
+   top:9px;
+   width:116px;
+   height:16px;
+   z-index:11;
+}
+#Text9 div
+{
+   text-align: left;
+}
+#Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position:absolute;
+   left:371px;
+   top:9px;
+   width:116px;
+   height:16px;
+   z-index:12;
+}
+#Text10 div
+{
+   text-align: left;
+}
+#jQueryProgressbar1, #jQueryProgressbar1 .ui-corner-right
+{
+   -webkit-border-bottom-right-radius: 6px;
+   -moz-border-bottom-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   -webkit-border-top-right-radius: 6px;
+   -moz-border-top-right-radius: 6px;
+   border-top-right-radius: 6px;
+   position:absolute;
+   left:129px;
+   top:56px;
+   width:433px;
+   height:55px;
+   z-index:4;
+}
+#jQueryProgressbar1, #jQueryProgressbar1 .ui-corner-left
+{
+   -webkit-border-bottom-left-radius: 6px;
+   -moz-border-bottom-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   -webkit-border-top-left-radius: 6px;
+   -moz-border-top-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#jQueryProgressbar1,ui-widget-content
+{
+   border-color: #6995C2;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#jQueryProgressbar1 .ui-widget-header
+{
+   border-color: #000000;
+   background-color: #6995C2;
+   background-image: none;
+}
+#Label3
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:12px;
+   top:16px;
+   width:161px;
+   height:24px;
+   line-height:24px;
+   z-index:10;
+}
+#jQueryProgressbar2, #jQueryProgressbar2 .ui-corner-right
+{
+   -webkit-border-bottom-right-radius: 6px;
+   -moz-border-bottom-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   -webkit-border-top-right-radius: 6px;
+   -moz-border-top-right-radius: 6px;
+   border-top-right-radius: 6px;
+   position:absolute;
+   left:129px;
+   top:148px;
+   width:433px;
+   height:55px;
+   z-index:5;
+}
+#jQueryProgressbar2, #jQueryProgressbar2 .ui-corner-left
+{
+   -webkit-border-bottom-left-radius: 6px;
+   -moz-border-bottom-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   -webkit-border-top-left-radius: 6px;
+   -moz-border-top-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#jQueryProgressbar2,ui-widget-content
+{
+   border-color: #6995C2;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#jQueryProgressbar2 .ui-widget-header
+{
+   border-color: #000000;
+   background-color: #6995C2;
+   background-image: none;
+}
+#Label4
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:48px;
+   top:68px;
+   width:40px;
+   height:24px;
+   line-height:24px;
+   z-index:6;
+}
+#Label5
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:48px;
+   top:160px;
+   width:40px;
+   height:24px;
+   line-height:24px;
+   z-index:7;
+}
+#Label6
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:586px;
+   top:68px;
+   width:78px;
+   height:24px;
+   line-height:24px;
+   z-index:8;
+}
+#Label7
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:586px;
+   top:160px;
+   width:78px;
+   height:24px;
+   line-height:24px;
+   z-index:9;
+}
+#Layer6
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 1px #000000 solid;
+   position:absolute;
+   text-align:left;
+   left:549px;
+   top:376px;
+   width:692px;
+   height:237px;
+   z-index:23;
+}
+#jQueryProgressbar3, #jQueryProgressbar3 .ui-corner-right
+{
+   -webkit-border-bottom-right-radius: 6px;
+   -moz-border-bottom-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   -webkit-border-top-right-radius: 6px;
+   -moz-border-top-right-radius: 6px;
+   border-top-right-radius: 6px;
+   position:absolute;
+   left:129px;
+   top:56px;
+   width:433px;
+   height:55px;
+   z-index:14;
+}
+#jQueryProgressbar3, #jQueryProgressbar3 .ui-corner-left
+{
+   -webkit-border-bottom-left-radius: 6px;
+   -moz-border-bottom-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   -webkit-border-top-left-radius: 6px;
+   -moz-border-top-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#jQueryProgressbar3,ui-widget-content
+{
+   border-color: #6995C2;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#jQueryProgressbar3 .ui-widget-header
+{
+   border-color: #000000;
+   background-color: #6995C2;
+   background-image: none;
+}
+#Label8
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:12px;
+   top:7px;
+   width:161px;
+   height:24px;
+   line-height:24px;
+   z-index:15;
+}
+#jQueryProgressbar4, #jQueryProgressbar4 .ui-corner-right
+{
+   -webkit-border-bottom-right-radius: 6px;
+   -moz-border-bottom-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   -webkit-border-top-right-radius: 6px;
+   -moz-border-top-right-radius: 6px;
+   border-top-right-radius: 6px;
+   position:absolute;
+   left:129px;
+   top:148px;
+   width:433px;
+   height:55px;
+   z-index:16;
+}
+#jQueryProgressbar4, #jQueryProgressbar4 .ui-corner-left
+{
+   -webkit-border-bottom-left-radius: 6px;
+   -moz-border-bottom-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   -webkit-border-top-left-radius: 6px;
+   -moz-border-top-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#jQueryProgressbar4,ui-widget-content
+{
+   border-color: #6995C2;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#jQueryProgressbar4 .ui-widget-header
+{
+   border-color: #000000;
+   background-color: #6995C2;
+   background-image: none;
+}
+#Label9
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:48px;
+   top:68px;
+   width:40px;   
+   height:24px;
+   line-height:24px;
+   z-index:17;
+}
+#Label10
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:48px;
+   top:160px;
+   width:40px;
+   height:24px;
+   line-height:24px;
+   z-index:18;
+}
+#Label11
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:586px;
+   top:68px;
+   width:78px;
+   height:24px;
+   line-height:24px;
+   z-index:19;
+}
+#Label12
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+   position:absolute;
+   left:586px;
+   top:160px;
+   width:78px;
+   height:24px;
+   line-height:24px;
+   z-index:20;
+}
+#PageFooter1
+{
+   background-color: #6995C2;
+   background-image: none;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}

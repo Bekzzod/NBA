@@ -1,0 +1,518 @@
+div#container
+{
+   width: 1300px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#jQueryTabs1{
+position:absolute;
+left:22px;
+top:150px;
+width:1255px;
+height:592px;
+z-index:8;
+}
+
+#jQueryTabs1 .tab-pane
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #4F4F4F;
+   display: none;
+}
+#jQueryTabs1 .active
+{
+   display: block;
+}
+#jQueryTabs1 .ui-tabs-nav li a
+{
+   padding: 8px 10px 8px 10px;
+}
+#jQueryTabs1 .nav-tabs
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#jQueryTabs1 .nav-tabs::after, #jQueryTabs1 .nav-tabs::before
+{
+   display: table;
+   content: " ";
+}
+#jQueryTabs1 .nav-tabs::after
+{
+   clear: both;
+}
+#jQueryTabs1 .nav-tabs > li
+{
+   display: block;
+   float: left;
+   margin-bottom: -1px;
+   position: relative;
+}
+#jQueryTabs1 .nav-tabs > li > a
+{
+   border: 1px solid transparent;
+   border-radius: 6px 6px 0 0;
+   color: #454545;
+   display: block;
+   margin-right: 2px;
+   padding: 8px 10px 8px 10px;
+   position: relative;
+   text-decoration: none;
+}
+#jQueryTabs1 .nav-tabs > li.active > a, #jQueryTabs1 .nav-tabs > li.active > a:focus, #jQueryTabs1	.nav-tabs > li.active > a:hover
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 1px solid #4F4F4F;
+   border-bottom-color: transparent;
+   color: #FFFFFF;
+   cursor: default;
+}
+#jQueryTabs1 .nav-tabs a:active, #jQueryTabs1 .nav-tabs a:hover
+{
+   outline: 0;
+}
+#jQueryTabs1 .nav-tabs a:focus, #jQueryTabs1 .nav-tabs a:hover
+{
+   background-color: #A9A9A9;
+   background-image: none;
+   border-color: #C5C5C5 #C5C5C5 #C5C5C5;
+   color: #454545;
+   text-decoration: none;
+}
+#jQueryTabs1 .ui-tabs-panel
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   padding: 0;
+}
+
+#Button3
+{
+   border: 1px #000000 solid;
+   border-radius: 4px;
+   background-color: #DCDCDC;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Label1
+{
+   border: 0px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#A9A9A9;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 20px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px transparent solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#Text1 div
+{
+   text-align: left;
+}
+#Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#Text2 div
+{
+   text-align: center;
+}
+#Combobox1
+{
+   border: 1px #CCCCCC solid;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   position:absolute;
+   left:293px;
+   top:150px;
+   width:167px;
+   height:28px;
+   z-index:10;
+}
+#Combobox1:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#jQueryButton1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+}
+#jQueryButton1 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#jQueryButton1.ui-corner-all
+{
+   -webkit-border-bottom-left-radius: 4px;
+   -moz-border-bottom-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   -webkit-border-top-left-radius: 4px;
+   -moz-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#jQueryButton1.ui-corner-all
+{
+   -webkit-border-bottom-right-radius: 4px;
+   -moz-border-bottom-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   -webkit-border-top-right-radius: 4px;
+   -moz-border-top-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#jQueryButton1.ui-button
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #C5C5C5;
+   color: #454545;
+}
+#jQueryButton1.ui-state-hover, #jQueryButton1.ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#jQueryButton1.ui-state-active, #jQueryButton1.ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#jQueryButton1.ui-button .ui-icon
+{
+   background-image: url(images/Teams_Detail-jQueryButton1-default.png);
+   background-position: 0 0;
+}
+#jQueryButton1.ui-button:hover .ui-icon
+{
+   background-image: url(images/Teams_Detail-jQueryButton1-hover.png);
+   background-position: 0 0;
+}
+#jQueryButton1.ui-button:active .ui-icon
+{
+   background-image: url(images/Teams_Detail-jQueryButton1-active.png);
+   background-position: 0 0;
+}
+#Image2
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position:absolute;
+   left:213px;
+   top:75px;
+   width:133px;
+   height:24px;
+   z-index:13;
+}
+#Text3 div
+{
+   text-align: left;
+}
+#Line1
+{
+   border-width: 0;
+   height: 33px;
+   width: 8px;
+}
+#Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   position:absolute;
+   left:346px;
+   top:75px;
+   width:344px;
+   height:24px;
+   z-index:15;
+}
+#Text4 div
+{
+   text-align: left;
+}
+#Line2
+{
+   border-color: #1E90FF;
+   border-style: solid;
+   border-bottom-width: 1px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Table1
+{
+   border: 2px #000000 solid;
+   background-color: #FFF8DC;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   position:absolute;
+   left:29px;
+   top:55px;
+   width:1197px;
+   z-index:0;
+}
+#Table1 td
+{
+   padding: 1px 1px 1px 1px;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 .cell0
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 158px;
+   height: 28px;
+}
+#Table1 .cell1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 156px;
+   height: 28px;
+}
+#Table1 .cell2
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 227px;
+   height: 28px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 158px;
+   height: 54px;
+}
+#Table1 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 156px;
+   height: 54px;
+}
+#Table1 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 227px;
+   height: 54px;
+}
+#Table1 tr:nth-child(odd)
+{
+   background-color: #FFFFFF;
+}
+#Table2
+{
+   border: 2px #000000 solid;
+   background-color: #FFF8DC;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   position:absolute;
+   left:29px;
+   top:57px;
+   width:1203px;
+   z-index:1;
+}
+#Table2 td
+{
+   padding: 1px 1px 1px 1px;
+}
+#Table2 td div
+{
+   white-space: nowrap;
+}
+#Table2 .cell0
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 158px;
+   height: 28px;
+}
+#Table2 .cell1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 156px;
+   height: 28px;
+}
+#Table2 .cell2
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 233px;
+   height: 28px;
+}
+#Table2 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 158px;
+   height: 46px;
+}
+#Table2 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 156px;
+   height: 46px;
+}
+#Table2 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 233px;
+   height: 46px;
+}
+#Table2 tr:nth-child(odd)
+{
+   background-color: #FFFFFF;
+}
+#Image3
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#PageFooter1
+{
+   background-color: #6995C2;
+   background-image: none;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}

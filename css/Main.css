@@ -1,9 +1,11 @@
 div#container
 {
    width: 1280px;
-   position: relative;
    margin: 0 auto 0 auto;
-   text-align: left;
+   position: fixed; 
+   left: 0px; 
+   top:11em; 
+   right: 0px;
 }
 body
 {
@@ -19,29 +21,22 @@ body
 }
 #Label1
 {
-   border: 0px #CCCCCC solid;
+   border: 0 #CCCCCC solid;
    border-radius: 4px;
-   background-color: tranfsparent;
+   background-color: transparent;
    background-image: none;
    color :#000000;
    font-family: Arial;
    font-weight: normal;
    font-size: 48px;
-   padding: 4px 4px 4px 4px;
+   padding: 4px;
    text-align: left;
    vertical-align: top;
-   position:absolute;
-   left:384px;
-   top:43px;
-   width:642px;
-   height:127px;
-   line-height:127px;
-   z-index:4;
 }
 #Image1
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0 #000000 solid;
+   padding: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -51,11 +46,10 @@ body
 #Image1
 {
    position:absolute;
-   left:37px;
-   top:13px;
    width:125px;
    height:260px;
    z-index:5;
+   top:-3em;
 }
 
 #Text1 
@@ -88,7 +82,7 @@ body
 #jQueryButton1 .ui-button
 {
    padding: 0;
-   line-height: 130px;
+   line-height: 70px;
 }
 #jQueryButton1
 {
@@ -167,7 +161,7 @@ body
 #jQueryButton2 .ui-button
 {
    padding: 0;
-   line-height: 130px;
+   line-height: 70px;
 }
 #jQueryButton2
 {
@@ -249,22 +243,49 @@ body
 {
    text-align: center;
 }
-#Layer1
-{
-   background-color: #FBFBFB;
-   background-image: none;
-   position:absolute;
-   text-align:left;
-   left:162px;
-   top:347px;
-   width:905px;
-   height:394px;
-   z-index:7;
+p {
+   color:#000000;
+   font-family:Arial;
 }
-#PageFooter1
+.text_large
 {
+   font-size:27px;
+}
+.footer {
+   position: fixed;
+   bottom:0;
+   width: 100%;
    background-color: #6995C2;
-   background-image: none;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
+   height:50px;
+}
+.footer>.text{
+   font-size:18px;
+   color: white;
+   position:absolute;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   top: 50%;
+}
+
+.button, .button:hover, .button:visited{
+   font-size:32px;
+   text-decoration: none;
+   color:white;
+   background-color: #6995C2;
+   width:120px;
+   height: 40px;
+   margin: 9px 18px;
+   border-top: 24px solid #6995C2;
+   border-right: 36px solid #6995C2;
+   border-bottom: 24px solid #6995C2;
+   border-left: 36px solid #6995C2;
+   border-radius: 10px;
+}
+.button:hover
+{
+   color:grey;
+}
+.buttons-container
+{
+   margin-top: 60px;
 }

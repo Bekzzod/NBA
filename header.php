@@ -1,3 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Start Page</title>
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/projectcss.css" rel="stylesheet">
+    <link href="css/Main.css" rel="stylesheet">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+
 <div class="PageHeader">
     <div class="PageHeader-content">
         <input type="submit" class="Button_back" onclick="goBack()" value="Back">

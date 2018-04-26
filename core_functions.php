@@ -1,6 +1,7 @@
 <?php
 class NBACore
 {
+    static $pagesWithNoHeader = ['/', '/index.php'];
 	static function ShowHeader()
 	{
 		include($_SERVER['DOCUMENT_ROOT'].'/header.php');
@@ -31,3 +32,4 @@ class NBACore
 				$uri.="index.php";	
 	}
 }
+?>

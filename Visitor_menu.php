@@ -1,9 +1,6 @@
 <!doctype html>
 <html>
 <head>
-<?php
-include('header.php');
-?>
 <meta charset="utf-8">
 <title>Visitor menu</title>
 <link href="css/jquery-ui.min.css" rel="stylesheet">
@@ -11,7 +8,6 @@ include('header.php');
 <link href="css/Visitor_menu.css" rel="stylesheet">
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
-<script src="./core_functions.php>"></script>
 <script>
 $(document).ready(function()
 {
@@ -22,6 +18,9 @@ $(document).ready(function()
 });
 </script>
 </head>
+<?php
+    include_once('core_functions.php');
+?>
 <body>
     <div id="container">
         <div id="Layer1">
@@ -39,5 +38,6 @@ $(document).ready(function()
             </div>
         </div>
     </div>
+<script src="js/VisitorMenuJS.js"></script>
 </body>
 </html>

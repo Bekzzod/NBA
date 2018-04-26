@@ -1,23 +1,8 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Photos</title>
-<link href="base/jquery-ui.min.css" rel="stylesheet">
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/wwb12.min.js"></script>
-<link href="css/Photos.css" rel="stylesheet">
-<script>
-$(document).ready(function()
-{
-   $("#jQueryButton1").button();
-});
-</script>
-</head>
-<body>
+<?php
+NBACore::SetProperty('title', 'Photos');
+NBACore::FillProperty('css', '/css/Photos.css');
+NBACore::FillProperty('js', '/js/wwb12.min.js');
+?>
     <div id="container">
     <label for="" id="Label3">When you like a photo, you can right-click a photo and choose the download menu item in the context menu to download.</label>
     </div>
@@ -56,5 +41,9 @@ $(document).ready(function()
         <button type="button" id="jQueryButton1" name="" value="Download photos in current page">Download photos in current page</button>
         <label for="" id="Label2">Total XX Photos , YY Photos in one page, Total ZZ Pages</label>
     </div>
-</body>
-</html>
+    <script>
+        $(document).ready(function()
+        {
+            $("#jQueryButton1").button();
+        });
+    </script>

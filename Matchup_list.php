@@ -1,29 +1,9 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Matchup List</title>
-<link href="base/jquery-ui.min.css" rel="stylesheet">
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<link href="css/Matchup_list.css" rel="stylesheet">
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/wwb12.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#jQueryButton1").button();
-   $("#jQueryButton2").button();
-   $("#jQueryButton3").button();
-   $("#jQueryButton4").button();
-   $("#jQueryButton5").button();
-   $("#jQueryButton6").button();
-   $("#jQueryButton7").button();
-});
-</script>
-</head>
-<body>
+<?php
+NBACore::SetProperty('title', 'Matchup List');
+NBACore::FillProperty('css', '/css/Matchup_list.css');
+NBACore::FillProperty('js', '/js/wwb12.min.js');
+NBACore::FillProperty('js', '/js/tab.min.js');
+?>
     <div id="container">
         <input type="date" id="Editbox1" name="Editbox1" value="" spellcheck="false">
         <button type="button" id="jQueryButton1" onclick="$('#Editbox1').slideshow('nextimage');return false;" name="" Value=">>">>></button>
@@ -101,5 +81,15 @@ $(document).ready(function()
             </table>
         </div>
     </div>
-</body>
-</html>
+    <script>
+        $(document).ready(function()
+        {
+            $("#jQueryButton1").button();
+            $("#jQueryButton2").button();
+            $("#jQueryButton3").button();
+            $("#jQueryButton4").button();
+            $("#jQueryButton5").button();
+            $("#jQueryButton6").button();
+            $("#jQueryButton7").button();
+        });
+    </script>

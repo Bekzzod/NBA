@@ -1,24 +1,9 @@
-<!doctype html>
-<html>
-<head>
-        <meta charset="utf-8">
-        <title>Report Team</title>
-        <link href="base/jquery-ui.min.css" rel="stylesheet">
-        <link href="css/jquery-ui.min.css" rel="stylesheet">
-        <link href="css/projectcss.css" rel="stylesheet">
-        <link href="css/Report_Team.css" rel="stylesheet">
-        <script src="js/jquery-1.12.4.min.js"></script>
-        <script src="js/jquery-ui.min.js"></script>
-        <script src="js/wwb12.min.js"></script>
-        <script src="js/tab.min.js"></script>
-        <script>
-        $(document).ready(function()
-        {
-        $("#jQueryButton2").button();
-        });
-        </script>
-</head>
-<body>
+<?php
+    NBACore::SetProperty('title', 'Report Team');
+    NBACore::FillProperty('css', '/css/Report_Team.css');
+    NBACore::FillProperty('js', '/js/wwb12.min.js');
+    NBACore::FillProperty('js', '/js/tab.min.js');
+?>
         <div id="container">
                 <div id="Layer3">
                         <select name="Combobox1" id="Combobox1"><option selected value="Points">Points</option></select>
@@ -47,5 +32,9 @@
                         </tr>
                 </table>
         </div>
-</body>
-</html>
+    <script>
+        $(document).ready(function()
+        {
+            $("#jQueryButton2").button();
+        });
+    </script>

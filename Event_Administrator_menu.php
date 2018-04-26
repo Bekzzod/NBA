@@ -1,27 +1,8 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Event Administrator menu</title>
-<link href="base/jquery-ui.min.css" rel="stylesheet">
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<link href="css/Event_Administrator_menu.css" rel="stylesheet">
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/wwb12.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#jQueryButton1").button();
-   $("#jQueryButton2").button();
-   $("#jQueryButton3").button();
-   $("#jQueryButton4").button();
-});
-</script>
-</head>
-
-<body>
+<?php
+NBACore::SetProperty('title', 'Event Administrator menu');
+NBACore::FillProperty('css', '/css/Event_Administrator_menu.css');
+NBACore::FillProperty('js', '/js/wwb12.min.js');
+?>
 <div id="container">
     <div id="Layer1">
         <div id="jQueryButton3" style="position:absolute;left:127px;top:340px;width:312px;height:140px;z-index:4;">
@@ -43,5 +24,13 @@ $(document).ready(function()
     </div>
 
 </div>
-</body>
-</html>
+
+<script>
+    $(document).ready(function()
+    {
+        $("#jQueryButton1").button();
+        $("#jQueryButton2").button();
+        $("#jQueryButton3").button();
+        $("#jQueryButton4").button();
+    });
+</script>

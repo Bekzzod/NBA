@@ -1,14 +1,8 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Add a new matchup for regular season</title>
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<link href="css/Add_a_new_matchup_for_regular_season.css" rel="stylesheet">
-</head>
-<body>
-
+<?php
+NBACore::SetProperty('title', 'Add a new matchup for regular season');
+NBACore::FillProperty('css', '/css/Add_a_new_matchup_for_regular_season.css');
+NBACore::FillProperty('js', '/js/wwb12.min.js');
+?>
 <div id="container">
     <div id="Layer1" style="position:absolute;text-align:left;left:281px;top:263px;width:705px;height:473px;z-index:40;">
         <div id="wb_Form1" style="position:absolute;left:44px;top:65px;width:585px;height:377px;z-index:21;">
@@ -35,5 +29,3 @@
         </div>
     </div>
 </div>
-</body>
-</html>

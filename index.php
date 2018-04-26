@@ -22,12 +22,3 @@
             <a class="button" href="/Admin_Login.php">Admin</a>
         </div>
     </div>
-
-
-    <script>
-        $(document).ready(function()
-        {
-            $("#jQueryButton1").button();
-            $("#jQueryButton2").button();
-        });
-    </script>

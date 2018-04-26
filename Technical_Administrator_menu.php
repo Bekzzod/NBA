@@ -1,22 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Technical Administrator menu</title>
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<link href="css/Technical_Administrator_menu.css" rel="stylesheet">
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#jQueryButton1").button();
-   $("#jQueryButton2").button();
-});
-</script>
-</head>
-<body>
+<?php
+    NBACore::SetProperty('title', 'Technical Administrator menu');
+    NBACore::FillProperty('css', '/css/Technical_Administrator_menu.css');
+?>
 <div id="container">
         <div id="Layer1">
 
@@ -30,5 +15,10 @@ $(document).ready(function()
         </div>
 </div>
 
-</body>
-</html>
+    <script>
+        $(document).ready(function()
+        {
+            $("#jQueryButton1").button();
+            $("#jQueryButton2").button();
+        });
+    </script>

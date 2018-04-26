@@ -1,30 +1,8 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Player Detail</title>
-<link href="base/jquery-ui.min.css" rel="stylesheet">
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/wwb12.min.js"></script>
-<link href="css/Player_Detail.css" rel="stylesheet">
-<script>
-$(document).ready(function()
-{
-   $("#jQueryButton1").checkboxradio({ icon:false });
-   var jQueryTabs1Options =
-   {
-      show: false,
-      event: 'click',
-      collapsible: true
-   };
-   $("#jQueryTabs1").tabs(jQueryTabs1Options);
-});
-</script>
-</head>
-<body>
+<?php
+    NBACore::SetProperty('title', 'Player Detail');
+    NBACore::FillProperty('css', '/css/Player_Detail.css');
+    NBACore::FillProperty('js', '/js/wwb12.min.js');
+?>
 <div id="container">
 <div id="Layer1" >
 </div>
@@ -126,5 +104,16 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-</body>
-</html>
+    <script>
+        $(document).ready(function()
+        {
+            $("#jQueryButton1").checkboxradio({ icon:false });
+            var jQueryTabs1Options =
+                {
+                    show: false,
+                    event: 'click',
+                    collapsible: true
+                };
+            $("#jQueryTabs1").tabs(jQueryTabs1Options);
+        });
+    </script>

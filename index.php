@@ -41,7 +41,6 @@
                 '/images/xp.jpg',
                 '/images/lineup.jpg',
                 '/images/xp.jpg',
-                '/images/lineup.jpg',
         ];?>
         <? foreach($imgSources as $imgPath):?>
             <div class="slider__index-image-wrapper"><img src="<?=$imgPath?>" class="slider__index-image" alt=""></div>

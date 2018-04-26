@@ -18,7 +18,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.php
 
-  RewriteCond %{REQUEST_URI}  !(\.css|\.js|\.png|\.jpg|\.gif|\.jpeg|\.bmp|\.ico)$
+  RewriteCond %{REQUEST_URI}  !(\.eot|\.svg|\.css|\.js|\.png|\.jpg|\.gif|\.jpeg|\.bmp|\.ico|\.ttf|\.woff)$
   RewriteRule (.*)  core.php [QSA]
   
 </IfModule>

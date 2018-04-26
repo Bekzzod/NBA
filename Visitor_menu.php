@@ -11,6 +11,9 @@
 <script>
 </script>
 </head>
+<?php
+    include_once('core_functions.php');
+?>
 <body>
     <div id="container">
         <div class="container-buttons">

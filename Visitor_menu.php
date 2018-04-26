@@ -1,20 +1,8 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Visitor menu</title>
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<link href="css/Visitor_menu.css" rel="stylesheet">
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script>
-</script>
-</head>
 <?php
-    include_once('core_functions.php');
+    NBACore::SetProperty('title', 'Visitor menu');
+    NBACore::FillProperty('css', '/css/Visitor_menu.css');
+    NBACore::FillProperty('js', '/js/VisitorMenuJS.js');
 ?>
-<body>
     <div id="container">
         <div class="container-buttons">
             <div class="container-buttons-two">
@@ -51,7 +39,3 @@
             </div>
         </div>
     </div>
-<script src="js/main.js"></script>
-<script src="js/VisitorMenuJS.js"></script>
-</body>
-</html>

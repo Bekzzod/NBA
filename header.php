@@ -2,12 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Start Page</title>
+    <title><!--##__TITLE__##--></title>
     <link href="css/jquery-ui.min.css" rel="stylesheet">
     <link href="css/projectcss.css" rel="stylesheet">
     <link href="css/Main.css" rel="stylesheet">
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
+    <!--##__CSS__##-->
 </head>
 <body>
 
@@ -45,6 +44,7 @@ height:100%;
 .Line{
  background-color:#6995C2;
  width:100%;
+ border:0;
 }
 
 .Button_back{

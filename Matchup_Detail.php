@@ -1,49 +1,9 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Matchup Detail</title>
-<link href="base/jquery-ui.min.css" rel="stylesheet">
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<link href="css/Matchup_Detail.css" rel="stylesheet">
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/wwb12.min.js"></script>
-<script src="js/tab.min.js"></script>
-
-<script>
-$(document).ready(function()
-{
-   $("#jQueryTabs1 a").click(function()
-   {
-      $(this).tab('show');
-   });
-   $("#jQueryButton1").button();
-   var jQueryProgressbar1Options =
-   {
-      value: 25
-   };
-   $("#jQueryProgressbar1").progressbar(jQueryProgressbar1Options);
-   var jQueryProgressbar2Options =
-   {
-      value: 25
-   };
-   $("#jQueryProgressbar2").progressbar(jQueryProgressbar2Options);
-   var jQueryProgressbar3Options =
-   {
-      value: 25
-   };
-   $("#jQueryProgressbar3").progressbar(jQueryProgressbar3Options);
-   var jQueryProgressbar4Options =
-   {
-      value: 25
-   };
-   $("#jQueryProgressbar4").progressbar(jQueryProgressbar4Options);
-});
-</script>
-</head>
-<body>
+<?php
+NBACore::SetProperty('title', 'Matchup Detail');
+NBACore::FillProperty('css', '/css/Matchup_Detail.css');
+NBACore::FillProperty('js', '/js/wwb12.min.js');
+NBACore::FillProperty('js', '/js/tab.min.js');
+?>
         <div id="container">
                 <table style="position:absolute;left:417px;top:129px;width:442px;height:104px;z-index:63;" id="Table1">
                 <tr>
@@ -215,5 +175,34 @@ $(document).ready(function()
                          <h5>Team1Name</h5>
                 </div>
         </div>
-</body>
-</html>
+
+    <script>
+        $(document).ready(function()
+        {
+            $("#jQueryTabs1 a").click(function()
+            {
+                $(this).tab('show');
+            });
+            $("#jQueryButton1").button();
+            var jQueryProgressbar1Options =
+                {
+                    value: 25
+                };
+            $("#jQueryProgressbar1").progressbar(jQueryProgressbar1Options);
+            var jQueryProgressbar2Options =
+                {
+                    value: 25
+                };
+            $("#jQueryProgressbar2").progressbar(jQueryProgressbar2Options);
+            var jQueryProgressbar3Options =
+                {
+                    value: 25
+                };
+            $("#jQueryProgressbar3").progressbar(jQueryProgressbar3Options);
+            var jQueryProgressbar4Options =
+                {
+                    value: 25
+                };
+            $("#jQueryProgressbar4").progressbar(jQueryProgressbar4Options);
+        });
+    </script>

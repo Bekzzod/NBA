@@ -1,25 +1,9 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Manage Teams</title>
-<link href="base/jquery-ui.min.css" rel="stylesheet">
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<link href="css/Manage_Teams.css" rel="stylesheet">
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/wwb12.min.js"></script>
-<script src="js/tab.min.js"></script>
-<script>
-        $(document).ready(function()
-        {
-        $("#jQueryButton1").button();
-        $("#jQueryButton2").button();
-        });
-</script>
-</head>
-<body>
+<?php
+NBACore::SetProperty('title', 'Manage Teams');
+NBACore::FillProperty('css', '/css/Manage_Teams.css');
+NBACore::FillProperty('js', '/js/wwb12.min.js');
+NBACore::FillProperty('js', '/js/tab.min.js');
+?>
 <?php
 include 'db_connection.php';
 $conn = OpenCon();
@@ -52,5 +36,10 @@ $conn = OpenCon();
                 </tr>
         </table>
 </div>
-</body>
-</html>
+<script>
+    $(document).ready(function()
+    {
+        $("#jQueryButton1").button();
+        $("#jQueryButton2").button();
+    });
+</script>

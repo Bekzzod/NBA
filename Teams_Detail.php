@@ -1,28 +1,9 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Team Detail</title>
-<link href="base/jquery-ui.min.css" rel="stylesheet">
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<link href="css/Teams_Detail.css" rel="stylesheet">
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/wwb12.min.js"></script>
-<script src="js/tab.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#jQueryTabs1 a").click(function()
-   {
-      $(this).tab('show');
-   });
-   $("#jQueryButton1").button();
-});
-</script>
-</head>
-<body>
+<?php
+    NBACore::SetProperty('title', 'Teams Detail');
+    NBACore::FillProperty('css', '/css/Teams_Detail.css');
+    NBACore::FillProperty('js', '/js/wwb12.min.js');
+    NBACore::FillProperty('js', '/js/tab.min.js');
+?>
 <div id="container">
         <div id="jQueryTabs1">
                 <ul class="nav-tabs">
@@ -86,5 +67,13 @@ $(document).ready(function()
         </div>
 </div>
 
-</body>
-</html>
+    <script>
+        $(document).ready(function()
+        {
+            $("#jQueryTabs1 a").click(function()
+            {
+                $(this).tab('show');
+            });
+            $("#jQueryButton1").button();
+        });
+    </script>

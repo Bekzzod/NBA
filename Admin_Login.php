@@ -1,26 +1,9 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Admin_Login</title>
-<link href="base/jquery-ui.min.css" rel="stylesheet">
-<link href="css/jquery-ui.min.css" rel="stylesheet">
-<link href="css/projectcss.css" rel="stylesheet">
-<link href="css/Admin_Login.css" rel="stylesheet">
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/wwb12.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#jQueryButton1").button();
-   $("#jQueryButton2").button();
-   $("#jQueryButton3").button();
-});
-</script>
+    <?php
+    NBACore::SetProperty('title', 'Login page');
+    NBACore::FillProperty('css', '/css/Admin_Login.css');
+    NBACore::FillProperty('js', '/js/wwb12.min.js');
+    ?>
 
-</head>
-<body onload="ShowObject('Layer1', 1);return false;">
     <div id="container">
         <div id="Login1" style="position:absolute;left:275px;top:248px;width:807px;height:448px;z-index:10;">
             <form name="loginform" method="post" accept-charset="UTF-8" id="loginform">
@@ -65,5 +48,15 @@ $(document).ready(function()
             <button type="reset" id="jQueryButton3" onclick="window.location.href='./index.php';return false;" name="" value="Back" style="position:absolute;left:631px;top:10px;width:63px;height:47px;z-index:8;">Back</button>
         </div>
     </div>
-</body>
-</html>
+
+    <script>
+        $(document).ready(function()
+        {
+            $("#jQueryButton1").button();
+            $("#jQueryButton2").button();
+            $("#jQueryButton3").button();
+            $(document).onload(function(){
+                ShowObject('Layer1', 1);
+            });
+        });
+    </script>

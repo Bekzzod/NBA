@@ -91,7 +91,7 @@ top:50%;
     transform: translate(-50%,0%);
     height: 32px;
     color:#2f2f2f;
-    font-size:30px;
+    font-size:3em;
     font-weight:700;
 }
 </style>

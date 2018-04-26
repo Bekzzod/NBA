@@ -1,441 +1,49 @@
-div#container
-{
-   width: 1268px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
-body
-{
-   background-color: #FFFFFF;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.1875;
-   margin: 0;
-   text-align: center;
-}
-#PageHeader2
-{
-   background-color: #F5F5F5;
-   background-image: none;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-}
-#jQueryButton1
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 21px;
-   font-style: normal;
-}
-#jQueryButton1 .ui-button
-{
-   padding: 0;
-   line-height: 140px;
-}
-#jQueryButton1
-{
-   color: #454545;
-   text-decoration: none;
-}
-#jQueryButton1 :hover
-{
-   color: #2B2B2B;
-}
-#jQueryButton1 :active
-{
-   color: #FFFFFF;
-}
-#jQueryButton1 .ui-corner-all, #jQueryButton1 .ui-corner-left
-{
-   -webkit-border-bottom-left-radius: 4px;
-   -moz-border-bottom-left-radius: 4px;
-   border-bottom-left-radius: 4px;
-   -webkit-border-top-left-radius: 4px;
-   -moz-border-top-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-#jQueryButton1 .ui-corner-all, #jQueryButton1 .ui-corner-right
-{
-   -webkit-border-bottom-right-radius: 4px;
-   -moz-border-bottom-right-radius: 4px;
-   border-bottom-right-radius: 4px;
-   -webkit-border-top-right-radius: 4px;
-   -moz-border-top-right-radius: 4px;
-   border-top-right-radius: 4px;
-}
-#jQueryButton1 .ui-button
-{
-   background-color: #6995C2;
-   background-image: none;
-   border: 1px solid #DDDDDD;
-   color: #FFFFFF;
-}
-#jQueryButton1 .ui-state-hover, #jQueryButton1 .ui-button:hover
-{
-   border-color: #0073EA;
-   background-color: #0073EA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#jQueryButton1 .ui-state-active, #jQueryButton1 .ui-button:active
-{
-   border-color: #DDDDDD;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #FF0084;
-}
-#jQueryButton1 .ui-button .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton1-default.png);
-   background-position: 0 0;
-}
-#jQueryButton1 .ui-button:hover .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton1-hover.png);
-   background-position: 0 0;
-}
-#jQueryButton1 .ui-button:active .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton1-active.png);
-   background-position: 0 0;
-}
-#jQueryButton2
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 21px;
-   font-style: normal;
-}
-#jQueryButton2 .ui-button
-{
-   padding: 0;
-   line-height: 140px;
-}
-#jQueryButton2
-{
-   color: #454545;
-   text-decoration: none;
-}
-#jQueryButton2 :hover
-{
-   color: #2B2B2B;
-}
-#jQueryButton2 :active
-{
-   color: #FFFFFF;
-}
-#jQueryButton2 .ui-corner-all, #jQueryButton2 .ui-corner-left
-{
-   -webkit-border-bottom-left-radius: 4px;
-   -moz-border-bottom-left-radius: 4px;
-   border-bottom-left-radius: 4px;
-   -webkit-border-top-left-radius: 4px;
-   -moz-border-top-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-#jQueryButton2 .ui-corner-all, #jQueryButton2 .ui-corner-right
-{
-   -webkit-border-bottom-right-radius: 4px;
-   -moz-border-bottom-right-radius: 4px;
-   border-bottom-right-radius: 4px;
-   -webkit-border-top-right-radius: 4px;
-   -moz-border-top-right-radius: 4px;
-   border-top-right-radius: 4px;
-}
-#jQueryButton2 .ui-button
-{
-   background-color: #6995C2;
-   background-image: none;
-   border: 1px solid #DDDDDD;
-   color: #FFFFFF;
-}
-#jQueryButton2 .ui-state-hover, #jQueryButton2 .ui-button:hover
-{
-   border-color: #0073EA;
-   background-color: #0073EA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#jQueryButton2 .ui-state-active, #jQueryButton2 .ui-button:active
-{
-   border-color: #DDDDDD;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #FF0084;
-}
-#jQueryButton2 .ui-button .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton2-default.png);
-   background-position: 0 0;
-}
-#jQueryButton2 .ui-button:hover .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton2-hover.png);
-   background-position: 0 0;
-}
-#jQueryButton2 .ui-button:active .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton2-active.png);
-   background-position: 0 0;
-}
-#jQueryButton3
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 21px;
-   font-style: normal;
-}
-#jQueryButton3 .ui-button
-{
-   padding: 0;
-   line-height: 140px;
-}
-#jQueryButton3
-{
-   color: #454545;
-   text-decoration: none;
-}
-#jQueryButton3 :hover
-{
-   color: #2B2B2B;
-}
-#jQueryButton3 :active
-{
-   color: #FFFFFF;
-}
-#jQueryButton3 .ui-corner-all, #jQueryButton3 .ui-corner-left
-{
-   -webkit-border-bottom-left-radius: 4px;
-   -moz-border-bottom-left-radius: 4px;
-   border-bottom-left-radius: 4px;
-   -webkit-border-top-left-radius: 4px;
-   -moz-border-top-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-#jQueryButton3 .ui-corner-all, #jQueryButton3 .ui-corner-right
-{
-   -webkit-border-bottom-right-radius: 4px;
-   -moz-border-bottom-right-radius: 4px;
-   border-bottom-right-radius: 4px;
-   -webkit-border-top-right-radius: 4px;
-   -moz-border-top-right-radius: 4px;
-   border-top-right-radius: 4px;
-}
-#jQueryButton3 .ui-button
-{
-   background-color: #6995C2;
-   background-image: none;
-   border: 1px solid #DDDDDD;
-   color: #FFFFFF;
-}
-#jQueryButton3 .ui-state-hover, #jQueryButton3 .ui-button:hover
-{
-   border-color: #0073EA;
-   background-color: #0073EA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#jQueryButton3 .ui-state-active, #jQueryButton3 .ui-button:active
-{
-   border-color: #DDDDDD;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #FF0084;
-}
-#jQueryButton3 .ui-button .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton3-default.png);
-   background-position: 0 0;
-}
-#jQueryButton3 .ui-button:hover .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton3-hover.png);
-   background-position: 0 0;
-}
-#jQueryButton3 .ui-button:active .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton3-active.png);
-   background-position: 0 0;
-}
-#jQueryButton4
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 21px;
-   font-style: normal;
-}
-#jQueryButton4 .ui-button
-{
-   padding: 0;
-   line-height: 140px;
-}
-#jQueryButton4
-{
-   color: #454545;
-   text-decoration: none;
-}
-#jQueryButton4 :hover
-{
-   color: #2B2B2B;
-}
-#jQueryButton4 :active
-{
-   color: #FFFFFF;
-}
-#jQueryButton4 .ui-corner-all, #jQueryButton4 .ui-corner-left
-{
-   -webkit-border-bottom-left-radius: 4px;
-   -moz-border-bottom-left-radius: 4px;
-   border-bottom-left-radius: 4px;
-   -webkit-border-top-left-radius: 4px;
-   -moz-border-top-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-#jQueryButton4 .ui-corner-all, #jQueryButton4 .ui-corner-right
-{
-   -webkit-border-bottom-right-radius: 4px;
-   -moz-border-bottom-right-radius: 4px;
-   border-bottom-right-radius: 4px;
-   -webkit-border-top-right-radius: 4px;
-   -moz-border-top-right-radius: 4px;
-   border-top-right-radius: 4px;
-}
-#jQueryButton4 .ui-button
-{
-   background-color: #6995C2;
-   background-image: none;
-   border: 1px solid #DDDDDD;
-   color: #FFFFFF;
-}
-#jQueryButton4 .ui-state-hover, #jQueryButton4 .ui-button:hover
-{
-   border-color: #0073EA;
-   background-color: #0073EA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#jQueryButton4 .ui-state-active, #jQueryButton4 .ui-button:active
-{
-   border-color: #DDDDDD;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #FF0084;
-}
-#jQueryButton4 .ui-button .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton4-default.png);
-   background-position: 0 0;
-}
-#jQueryButton4 .ui-button:hover .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton4-hover.png);
-   background-position: 0 0;
-}
-#jQueryButton4 .ui-button:active .ui-icon
-{
-   background-image: url(images/Visitor_menu-jQueryButton4-active.png);
-   background-position: 0 0;
-}
-#Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#Text2 div
-{
-   text-align: center;
-}
-#PageHeader1
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-}
-#Button3
-{
-   border: 1px #000000 solid;
-   border-radius: 4px;
-   background-color: #DCDCDC;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#Label1
-{
-   border: 0px #CCCCCC solid;
-   border-radius: 4px;
-   background-color: #FBFBFB;
-   background-image: none;
-   color :#A9A9A9;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 20px;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-   vertical-align: top;
-   position:absolute;
-   text-align:left;
-   left:24px;
-   top:149px;
-   width:1202px;
-   height:667px;
-   z-index:11;
-}
-#Image1
-{
-   border: 0px transparent solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#Text1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#Text1 div
-{
-   text-align: left;
-}
-#Line2
-{
-   border-color: #1E90FF;
-   border-style: solid;
-   border-bottom-width: 1px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
-   margin: 0;
-   padding: 0;
-}
-Layer1
-{
-   background-color: #FBFBFB;
-   background-image: none;
-   border: 1px #000000 solid;
-}
-#PageFooter1
-{
-   background-color: #6995C2;
-   background-image: none;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-}
+#container{
+    position:relative;
+    height: 700px;
+    margin-top: 30px;
+}
+.container-buttons{
+    position:relative;
+    width:80%;
+    height: auto;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    .container-buttons > .container-buttons-two{
+        position:relative;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;    
+        height: auto;    
+        margin-bottom: 60px;
+    }
+        .container-buttons > .container-buttons-two>.container-buttons-one{
+            position:relative;
+            width:35%;    
+            height: auto;    
+        }
+.buttons-style{
+    width: 100%;
+    height: 150px;
+    background: #759cc3;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px 1px #232533;
+    position: relative;
+}  
+.buttons-style>.text{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-size: 2em;
+    color:white;
+    font-weight: 600;
+}    
+.buttons-style:hover{
+    box-shadow: 1px 1px 20px 4px #232533;
+}  

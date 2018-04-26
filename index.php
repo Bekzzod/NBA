@@ -9,7 +9,7 @@
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <?php
-include('core_functions')
+    include_once('core_functions.php');
 ?>
 <script>
 $(document).ready(function()

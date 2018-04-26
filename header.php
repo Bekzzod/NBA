@@ -1,75 +1,84 @@
 <div class="PageHeader">
-     <hr class="Line" >
-    <input type="submit" class="Button_back" onclick="href='../';" value="Back">
-    <label class="sys_name">NBA Management System</label>
-    <div class="logo_container">
-        <img src="images/logo.jpg" class="logo">
+    <div class="PageHeader-content">
+        <input type="submit" class="Button_back" onclick="goBack()" value="Back">
+        <div class="PageHeader-content-logo">
+            <div class="logo"></div>
+            <div class="text">NBA Management System</div>            
+        </div>
+        <div id="pageName">
+        </div>
     </div>
-    <div class="Page_Name_Container">
-        <span><strong>Text</strong></span>
-    </div>
+    <hr class="Line">
 </div>
-
+<script>
+    function goBack(){
+        window.history.back();
+        console.log("back");
+    }
+</script>
 <style>
 .PageHeader{
-position:absolute;
+position:relative;
 text-align:left;
-left:0px;
-top:0px;
 width:100%;
 height:100px;
 }
 
+.PageHeader-content{
+position:relative;    
+height:100%;
+}
+
 .Line{
  background-color:#6995C2;
- position:absolute;
- left:0px;
- top:100%;
  width:100%;
 }
 
 .Button_back{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translate(0%,-50%);
+    width: 100px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 130px;
+    background: #c3c3c3;
+}
+.PageHeader-content-logo{
+    position:relative;
+    left:10px;
+    height:90%;
+    top:50%;
+    transform: translate(0%,-50%);  
+    width:50%;
+    display:flex;
+}
+.PageHeader-content-logo>.text{
+    color:#ada9a9;
+    font-size:27px;
+    position:relative;  
+    top: 100%;
+    height: 30px;
+    transform: translate(0%,-120%);  
+}
+.PageHeader-content-logo>.logo{
+    background:url('images/logo.jpg');
+    height:100%;
+    width:80px;    
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#pageName{
 position:absolute;
-left:90%;
+left:50%;
 top:50%;
-width:96px;
-height:25px
-}
-
-.sys_name{
-position:absolute;
-left:53px;
-top:80%;
-width:260px;
-height:23px;
-line-height:23px
-}
-
-.logo_container{
-position:absolute;
-left:1px;
-top:6px;
-width:42px;
-height:89px
-}
-.logo{
-position:absolute;
-left:10%;
-top:1%;
-width:50px;
-height:98px
-}
-
-.Page_Name_Container{
-position:absolute;
-left:45%;
-top:70%;
-width:179px;
-height:32px
-}
-
-span{
-color:#000000;
-font-size:27px;
+    transform: translate(-50%,0%);
+    height: 32px;
+    color:#2f2f2f;
+    font-size:30px;
+    font-weight:700;
 }
 </style>

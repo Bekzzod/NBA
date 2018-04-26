@@ -3,15 +3,18 @@
     position: bottom;
     width: 100%;
     background-color: #6995C2;
+    height:50px;
+}
+.footer>.text{
+    font-size:18px;
     color: white;
-    text-align: center;
-    position: fixed; 
-    left: 0px;
-    bottom: 0px; 
-    right: 0px; 
+    position:absolute;    
+    transform: translate(-50%,-50%); 
+    left: 50%;
+    top: 50%;
 }
 </style>
 
 <div class="footer">
-  <p><strong>The current season is 2017-2018, and the NBA already has a history of 72 years.</strong></p>
+    <div class="text">The current season is 2017-2018, and the NBA already has a history of 72 years.</div>
 </div>

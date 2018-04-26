@@ -15,6 +15,7 @@ body
    line-height: 1.1875;
    margin: 0;
    text-align: center;
+   min-width: 1200px;
 }
 #Label1
 {

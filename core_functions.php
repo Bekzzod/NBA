@@ -31,3 +31,4 @@ class NBACore
 				$uri.="index.php";	
 	}
 }
+?>

@@ -42,9 +42,9 @@
                 '/images/lineup.jpg',
                 '/images/xp.jpg',
         ];?>
-        <? foreach($imgSources as $imgPath):?>
-            <div class="slider__index-image-wrapper"><img src="<?=$imgPath?>" class="slider__index-image" alt=""></div>
-        <?endforeach;?>
+        <?php foreach($imgSources as $imgPath):?>
+            <div class="slider__index-image-wrapper"><img src="<?php echo $imgPath?>" class="slider__index-image" alt=""></div>
+        <?php endforeach;?>
     </div>
 </div>
 <script>
